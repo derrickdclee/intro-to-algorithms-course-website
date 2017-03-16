@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Paul Cruz",
+        "email": "<a href=\"mailto:pbc8@duke.edu\" target=\"_blank\">pbc8@duke.edu</a>",
+        "office-hour": {
+            "day": "Sundays",
+            "time": "9:30 - 10:30 pm",
+            "venue": "LSRC A155"
+        }
+    },
+    {
+        "name": "Arun Ganesh",
+        "email": "<a href=\"mailto:ag310@duke.edu\" target=\"_blank\">ag310@duke.edu</a>",
+        "office-hour": {
+            "day": "Wednesdays",
+            "time": "7:30 - 8:30 pm",
+            "venue": "LSRC A155"
+        }
+    },
+    {
+        "name": "Erin Taylor",
+        "email": "<a href=\"mailto:ect15@duke.edu\" target=\"_blank\">ect15@duke.edu</a>",
+        "office-hour": {
+            "day": "Mondays",
+            "time": "8 - 9 pm",
+            "venue": "LSRC A155"
+        }
+    },
+    {
+        "name": "Patrick Terry",
+        "email": "<a href=\"mailto:patrick.terry@duke.edu\" target=\"_blank\">patrick.terry@duke.edu</a>",
+        "office-hour": {
+            "day": "Thursdays",
+            "time": "8:30 - 9:30 pm",
+            "venue": "LSRC A155"
+        }
+    },
+    {
+        "name": "Narongsak (Army) Tunjaicon",
+        "email": "<a href=\"mailto:narongsak.tunjaicon@duke.edu\" target=\"_blank\">narongsak.tunjaicon@duke.edu</a>",
+        "office-hour": {
+            "day": "Sundays",
+            "time": "4 - 5 pm",
+            "venue": "LSRC A247"
+        }
+    },
+    {
+        "name": "Weiyao Wang",
+        "email": "<a href=\"mailto:weiyao.wang@duke.edu\" target=\"_blank\">weiyao.wang@duke.edu</a>",
+        "office-hour": {
+            "day": "Tuesdays",
+            "time": "8 - 9 pm",
+            "venue": "LSRC A155"
+        }
+    },
+    {
+        "name": "Haofeng (Fred) Zhang",
+        "email": "<a href=\"mailto:h.z@duke.edu\" target=\"_blank\">h.z@duke.edu</a>",
+        "office-hour": {
+            "day": "Thursdays",
+            "time": "7:30 - 8:30 pm",
+            "venue": "LSRC A155"
+        }
+    }
+]

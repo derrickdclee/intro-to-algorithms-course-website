@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Derrick Lee">
+        <!-- stop the web browser from ever caching this page or its images -->
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <!-- support for testing -->
+        <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-2.1.1.css" />
+        <!-- jQuery and QUnit testing -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/qunit/qunit-2.1.1.js"></script>
+        <!-- loading my js files -->
+        <script src="js/load_background_color.js"></script>
+        <script src="js/module_load_list.js"></script>
+        <script src="js/module_load_table.js"></script>
+        <script src="js/module_format_string.js"></script>
+        <script src="js/load_lists.js"></script>
+        <script src="js/load_tables.js"></script>
+        <script id="data-script" src="js/load_data.js" data-synopsis="index_1/data_1/synopsis.json" data-announcements="index_1/data_1/announcements.json" data-prereq="index_1/data_1/prereq.json" data-grad="index_1/data_1/grad.json" data-undergrad="index_1/data_1/undergrad.json" data-grading="index_1/data_1/grading.json" data-homework="index_1/data_1/homework.json" data-calendar="index_1/data_1/calendar.json" data-textbook="index_1/data_1/textbook.json" data-reference="index_1/data_1/reference.json" data-policy="index_1/data_1/policy.json" data-recitation="index_1/data_1/recitation.json" data-bcolor="index_1/data_1/background_color.json"></script>
+        <script src="js/main.js"></script>
+        <script src="tests/test.js"></script>
+    </head>
+    <body>
+        <div id="qunit">
+        <!-- tests results will display here -->
+        </div>
+        <div id="qunit-fixture">
+            <ul id="synopsis-list"></ul>
+            <ul id="announcements-list"></ul>
+            <ul id="prereq-list"></ul>
+            <ul id="grad-list"></ul>
+            <ul id="undergrad-list"></ul>
+            <ul id="grading-list"></ul>
+            <ul id="textbook-list"></ul>
+            <ul id="reference-list"></ul>
+            <ul id="policy-list"></ul>
+            <ul id="homework-list"></ul>
+        </div>
+    </body>
+</html>

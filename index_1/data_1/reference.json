@@ -1,0 +1,14 @@
+[
+    {
+        "ref": "[AHU] A. Aho, J. Hopcroft, and J. Ullman. <i>Design and Analysis of Algorithms</i>. Addison Wesley 1974."
+    },
+    {
+        "ref": "[Ed] H. Edelsbrunner. <a href=\"http://www.cs.duke.edu/courses/fall08/cps230/Book.pdf\">CPS230 Lecture Notes</a>. Duke University, 2008."
+    },
+    {
+        "ref": "[Er] J. Erickson. <a href=\"http://compgeom.cs.uiuc.edu/~jeffe/teaching/algorithms/\">CPS473G: Algorithms Lecture Notes</a>. UIUC."
+    },
+    {
+        "ref": "[Ta] R. E. Tarjan. <i>Data Structures and Network Algorithms</i>. Society for Industrial Mathematics, 1987."
+    }
+]

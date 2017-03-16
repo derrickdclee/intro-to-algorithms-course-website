@@ -1,0 +1,22 @@
+[
+    {
+        "name": "<a href=\"https://users.cs.duke.edu/~abef/\">Abraham (Abe) Frandsen</a>",
+        "office": "North 001",
+        "email": "Email: <a href=\"mailto:abef@cs.duke.edu\" target=\"_blank\">abef@cs.duke.edu</a>",
+        "office-hour": {
+            "day": ["Sundays", "Tuesdays"],
+            "time": ["8 - 9 pm", "1:30 - 2:30 pm"],
+            "venue": ["LSRC A155", "LSRC D306"]
+        }
+    },
+    {
+        "name": "<a href=\"https://www.cs.duke.edu/~tianyu/\">Tianyu Wang</a>",
+        "office": "North 003",
+        "email": "Email: <a href=\"mailto:tianyu@cs.duke.edu\" target=\"_blank\">tianyu@cs.duke.edu</a>",
+        "office-hour": {
+            "day": ["Wendesdays", "Thursdays"],
+            "time": ["4:30 - 5:30 pm", "5 - 6 pm"],
+            "venue": ["LSRC D301", "LSRC D301"]
+        }
+    }
+]

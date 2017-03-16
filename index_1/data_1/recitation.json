@@ -1,0 +1,38 @@
+[
+    {
+        "dis": 1,
+        "date": "Fr 1/13",
+        "topic": "Induction, big-Oh notation",
+        "notes": "<a href='#'>Notes</a>"
+    },
+    {
+        "dis": 2,
+        "date": "Fr 1/20",
+        "topic": "Divide and Conquer",
+        "notes": "<a href='#'>Notes</a>"
+    },
+    {
+        "dis": 3,
+        "date": "Fr 1/27",
+        "topic": "Greedy Algorithms",
+        "notes": "<a href='#'>Notes</a>"
+    },
+    {
+        "dis": [4,5],
+        "date": ["Fr 2/3", "Fr 2/10"],
+        "topic": "Dynamic Programming",
+        "notes": "<a href='#'>Notes</a>"
+    },
+    {
+        "dis": 6,
+        "date": "Fr 2/17",
+        "topic": "DFS and BFS",
+        "notes": "<a href='#'>Notes</a>"
+    },
+    {
+        "dis": 7,
+        "date": "Fr 2/24",
+        "topic": "Shortest Path",
+        "notes": "<a href='#'>Notes</a>"
+    }
+]

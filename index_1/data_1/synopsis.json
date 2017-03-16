@@ -1,0 +1,27 @@
+[
+   {
+       "topic": "Introduction: History of Algorithms, Asymptotic and Worst-case Analysis"
+   },
+    {
+       "topic": "Algorithm Design Techniques: Divide and Conquer (Recurrences), Dynamic Programming and Memoization, Greedy Algorithms" 
+    },
+    {
+       "topic": "Graph Algorithms: Graph Representations, Graph Traversal and Applications, Shortest Path, Minimum Spanning Tree, Network Flows" 
+    },
+    {
+        "topic": "Data Structures: Amortization and Potential Functions, Union-Find"  
+    },
+    {
+        "topic": "Computational Geometry: Convex hull"
+    },
+    {
+        "topic": "Randomized Algorithms: Monte Carlo and Las Vegas Algorithms, Hashing"
+    },
+    {
+        "topic": "Linear Programming: Simplex Algorithms, LP Duality"
+    },
+    {
+        "topic": "Intractability: P and NP, NP-completeness, Polynomial-time Reductions, Approximation Algorithms"
+    }
+    
+]

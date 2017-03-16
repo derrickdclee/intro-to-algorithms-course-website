@@ -1,0 +1,212 @@
+[
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Introduction</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [1],
+        "date": ["We 1/11"],
+        "topic": "History of Algorithms; Asymptotic Notation; Worst-case Analysis",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 0,2 <br> KT: 2 <br> CLRS: 1,2,3,4"
+    },
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Algorithm Design Techniques</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [""],
+        "date": ["Mo 1/16"],
+        "topic": "Martin Luther King, Jr. Holiday: No class",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [2,3],
+        "date": ["We 1/18", "Mo 1/23"],
+        "topic": "Divide and Conquer: Binary Search, Quick Sort, Merge Sort, Integer Multiplication, Linear-Time Selection. <br> Guest lecturer on 1/18: Prof. Pankaj Agarwal",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 2 <br> KT: 5 <br> CLRS: 4,7,8,9,28"
+    },
+    {
+        "lecture": [4,5],
+        "date": ["We 1/25", "Mo 1/30"],
+        "topic": "Greedy Algorithms: Interval Scheduling, Interval Coloring, Fractional Knapsack, Huffman codes",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 5 <br> KT: 4 <br> CLRS: 16"
+    },
+    {
+        "lecture": [6,7],
+        "date": ["We 2/1", "Mo 2/6"],
+        "topic": "Dynamic Programming: Longest Increasing Subsequence, 0-1 Knapsack, Maximal Matching on Trees, Maximal Independent Set on Trees",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 6 <br> KT: 6 <br> CLRS: 15"
+    },
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Graph Algorithms</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [8,9,10,11],
+        "date": ["We 2/8", "Mo 2/13", "We 2/15", "Mo 2/20"],
+        "topic": "Graph Representations and Traversal <br> DFS, BFS, and their applications <br> From BFS to shortest path",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 3,4.6,6.6 <br> KT: 3 <br> CLRS: 22"
+    },
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Midterm 1: Lectures 1-11</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [12],
+        "date": ["Mo 2/27"],
+        "topic": "Shortest Path: Dijkstra's and Bellman-Ford; MST properties",
+        "notes": ["<a href='#'>Notes</a>", "<a href='#'>Notes</a>"],
+        "ref": ""
+    },
+    {
+        "lecture": [13],
+        "date": ["We 3/1"],
+        "topic": "MST: Prim's and Kruskal's, The Union-Find Data Structure",
+        "notes": ["<a href='#'>Notes</a>", "<a href='#'>Notes</a>"],
+        "ref": ""
+    },
+    {
+        "lecture": [14,15],
+        "date": ["Mo 3/6", "We 3/8"],
+        "topic": "Network Flows and Matchings: Maxflow Mincut Theorem, Augmenting Paths",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 7 <br> KT: 7 <br> CLRS: 26"
+    },
+    {
+        "lecture": ["",""],
+        "date": ["Mo 3/13", "We 3/15"],
+        "topic": "<b>Spring Break: No Class</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Randomized Algorithms</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [16],
+        "date": ["Mo 3/20"],
+        "topic": "Random processes: Birthday Paradox, Coupon Collector, Balls in Bins",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: virtual chapter <br> KT: 13 <br> CLRS: 5,11"
+    },
+    {
+        "lecture": [17],
+        "date": ["We 3/22"],
+        "topic": "Hashing",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: virtual chapter <br> KT: 13 <br> CLRS: 5,11"
+    },
+    {
+        "lecture": [18,19],
+        "date": ["Mo 3/27", "We 3/29"],
+        "topic": "Las Vegas and Monte Carlo Algorithms",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: virtual chapter <br> KT: 13 <br> CLRS: 5,11"
+    },
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Linear Programming</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [20],
+        "date": ["Mo 4/3"],
+        "topic": "LP Formulations, Integer Linear Program",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "CLRS: 29"
+    },
+    {
+        "lecture": [21],
+        "date": ["We 4/5"],
+        "topic": "LP Duality",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "CLRS: 29"
+    },
+    {
+        "lecture": [22],
+        "date": ["Mo 4/10"],
+        "topic": "LP Algorithms, Simplex Algorithms, Separation Oracles",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": ""
+    },
+    {
+        "lecture": [""],
+        "date": ["We 4/12"],
+        "topic": "<b>Midterm 2: Lectures 12-22</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Intractability</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [23],
+        "date": ["Mo 4/17"],
+        "topic": "Complexity Classes P and NP, Polynomial-time Reductions",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 8 <br> KT: 8 <br> CLRS: 34"
+    },
+    {
+        "lecture": [24],
+        "date": ["We 4/19"],
+        "topic": "Approximation Algorithms: Vertex Cover, Set Cover, TSP",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "DPV: 8,9 <br> KT: 8,11 <br> CLRS: 34,35"
+    },
+    {
+        "lecture": [""],
+        "date": [""],
+        "topic": "<b>Other Topics</b>",
+        "notes": [""],
+        "ref": ""
+    },
+    {
+        "lecture": [23],
+        "date": ["Mo 4/24"],
+        "topic": "Computational Geometry: Convex Hull Algorithms",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": "CLRS: 33"
+    },
+    {
+        "lecture": [24],
+        "date": ["We 4/26"],
+        "topic": "Online Algorithms: Rent-or-buys, paging",
+        "notes": ["<a href='#'>Notes</a>"],
+        "ref": ""
+    },
+    {
+        "lecture": [""],
+        "date": ["Mo 5/1"],
+        "topic": "<b>Final Exam: All Lectures</b> <br> <b>Time: May 1, 9am-12pm</b> <br> <b>Location</b>: French Science 2231",
+        "notes": [""],
+        "ref": ""
+    }
+]

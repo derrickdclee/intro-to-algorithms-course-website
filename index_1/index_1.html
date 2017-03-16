@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Derrick Lee">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Ubuntu:400,700" rel="stylesheet">
+        <!---------- for bootstrap ------------>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet/less" type="text/css" href="../css/style.less">
+        <!------------ jquery ------------------>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <!----------------- less js -------------->
+        <script src="../js/less.min.js"></script>
+        <!---------------- bootstrap js ----------------->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!----------------- my js files ------------------->
+        <script src="../js/load_background_color.js"></script>
+        <script src="../js/module_load_list.js"></script>
+        <script src="../js/module_load_table.js"></script>
+        <script src="../js/module_format_string.js"></script>
+        <script src="../js/load_lists.js"></script>
+        <script src="../js/load_tables.js"></script>
+        <script id="data-script" src="../js/load_data.js" data-synopsis="data_1/synopsis.json" data-announcements="data_1/announcements.json" data-prereq="data_1/prereq.json" data-grad="data_1/grad.json" data-undergrad="data_1/undergrad.json" data-grading="data_1/grading.json" data-homework="data_1/homework.json" data-calendar="data_1/calendar.json" data-textbook="data_1/textbook.json" data-reference="data_1/reference.json" data-policy="data_1/policy.json" data-recitation="data_1/recitation.json" data-bcolor="data_1/background_color.json"></script>
+        <script src="../js/main.js"></script>
+        <title>COMPSCI 330</title>
+    </head>
+    
+    <body>
+        <div class="jumbotron header">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#links" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href=".header">
+                                Spring 17 COMPSCI 330
+                            </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="links">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#overview">Overview</a></li>
+                                <li><a href="#announcements">Announcements</a></li>
+                                <li><a href="#logistics">Course Logistics</a></li>
+                                <li><a href="#homework">Homework</a></li>
+                                <li><a href="#calendar">Calendar</a></li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+           <div class="header-text">
+               <h1>COMPSCI 330. Design and Analysis of Algorithms</h1>
+            </div> 
+        </div>
+        <div class="container">
+            <!-------------------- Overview ----------------->
+            <div class="row" id="overview">
+                <div class="section-header">
+                    <h2>Overview</h2>
+                </div>
+                <div class="contents">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Introduction</h3>
+                            <p>
+                                Algorithms are a cornerstone of computational sciences and the need for efficient algorithms is ubiquitous in modern technology. However, the primary goals of algorithm design, the resources that need to be optimized, and even the model of computation varies widely between application areas. In this course, we will study some of the fundamental principles of algorithm design that appear in multiple areas and have had broad impact. In addition, we will focus on the mathematical tools that are frequently used in the theoretical analysis of algorithms, and study how such analysis, in turn, influences algorithm design. The course will be at an undergraduate level and will aim to serve the following objectives: 
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img id="alien-guy" src="../css/images/algorithms.jpg" alt="Alien guy saying 'Algorithms'">
+                        </div>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                provide basic training in algorithm design for a future computer scientist and/or programmer, and 
+                            </li>
+                            <li> 
+                                expose future professionals in other disciplines to fundamental algorithmic paradigms. 
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="synopsis-accordion">
+                        <h3>Synopsis</h3>
+                        <div>
+                            <p>
+                                This course covers the design and analysis of algorithms at an undergraduate level. The following is a tentative list of topics to be covered:
+                            </p>
+                            <ul id="synopsis-list"> 
+                                    <!-- JSON file loaded here -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------------------- Announcements --------------------->
+            <div class="row" id="announcements">
+                <div class="section-header">
+                    <h2>Announcements</h2>
+                </div>
+                <div class="contents">
+                    <ul id="announcements-list">
+                        <!-- JSON file loaded here-->
+                    </ul>
+                </div>
+            </div>
+            <!-------------------- Course Logistics --------------------->
+            <div class="row" id="logistics">
+                <div class="section-header">
+                    <h2>Course Logistics</h2>
+                </div>
+                <div class="contents" id="logistics-accordion">
+                    <h3>Prerequisites</h3>
+                    <div>
+                        <p>There are two hard prerequisites (equivalent courses are also acceptable):</p>
+                        <ul id="prereq-list">
+                            <!-- JSON file loaded here-->
+                        </ul>
+                        <p>If you do not satisfy these prerequisites, please contact the instructor.</p>
+                    </div>
+                    <h3>Time and Venue</h3>
+                    <div>
+                        <p>Lectures: French Science 2231 on Mondays and Wednesdays at 10:05 - 11:20 am</p>
+                        <p>Recitations: French Science 2231 on Fridays at 10:05 - 11:20 am, SocSci 136 on Fridays at 3:05 - 4:20 pm</p>
+                    </div>
+                    <h3>Course Staff</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Instructor</h4>
+                            <p>
+                                <a href="http://www.cs.duke.edu/~debmalya/">Debmalya Panigrahi</a> <br>
+                                LSRC D203 <br>
+                                Email: <a href="mailto:debmalya@cs.duke.edu" target="_blank">debmalya@cs.duke.edu</a> <br>
+                                Office hours on Mondays at 11:30 am - 12:30 pm in LSRC D203
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Graduate TAs</h4>
+                            <ul id="grad-list">
+                                <!-- JSON file loaded here -->
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Undergraduate TAs</h4>
+                            <ul id="undergrad-list">
+                                <!-- JSON file loaded here -->
+                            </ul>
+                        </div>
+                    </div>
+                    <h3>Grading</h3>
+                    <div>
+                        <ul id="grading-list">
+                            <!-- JSON file loaded here -->
+                        </ul>
+                    </div>
+                    <h3>Textbooks</h3>
+                    <div>
+                        <p>Lecture notes will be uploaded on the course website after every lecture. In addition, the following books cover most of the syllabus:</p>
+                        <ul id="textbook-list">
+                            <!-- JSON file added here -->
+                        </ul>
+                    </div>
+                    <h3>Additional References</h3>
+                    <div>
+                        <ul id="reference-list">
+                            <!-- JSON file added here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="homework">
+                <div class="section-header">
+                    <h2>Homework</h2>
+                </div>
+                <div class="contents" id="homework-accordion">
+                    <h3>Homework Policies</h3>
+                    <div>
+                        <ul id="policy-list">
+                            <!-- JSON file added here -->
+                        </ul>
+                    </div>
+                    <h3>Schedule</h3>
+                    <div>
+                        <ul id="homework-list">
+                            <!-- JSON file loaded here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="calendar">
+                <div class="section-header">
+                    <h2>Calendar</h2>
+                </div>
+                <div class="contents" id="calendar-accordion">
+                    <h3>Course Plan</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Lecture</th>
+                                    <th>Date</th>
+                                    <th>Topic</th>
+                                    <th>Scribe Notes</th>
+                                    <th>References</th>
+                                </tr>
+                            </thead>
+                            <tbody id="calendar-table">
+                                <!-- JSON file added here -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <h3>Recitations</h3>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Discussion</th>
+                                    <th>Date</th>
+                                    <th>Topic</th>
+                                    <th>Discussion Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recitation-table">
+                                <!-- JSON file added here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron footer">
+            <div class="footer-text">
+                <p>Duke Computer Science</p>
+            </div>
+        </div>
+        <div class="sample-class">
+        </div>
+    </body>
+</html>
